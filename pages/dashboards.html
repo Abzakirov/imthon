@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body class="font-pop bg-gray-100">
+
+    <!-- Dashboard -->
+    <main class="flex flex-col md:flex-row">
+
+        <!-- Sidebar -->
+        <div class="bg-white shadow-md w-full md:w-[280px]">
+            <div class="flex items-center justify-center gap-3 p-5">
+                <img src="../assets/svg/Vector.svg" alt="Logo">
+                <div>
+                    <h1 class="text-blue font-bold">Khan</h1>
+                    <p class="text-blue font-light">Academy</p>
+                </div>
+            </div>
+            <div class="mt-5 space-y-2">
+                <!-- Sidebar buttons -->
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2]">
+                    <img src="/assets/svg/fi-sr-apps.svg" alt="Umumiy"> Umumiy
+                </a>
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-graduation-cap.svg" alt="Kurslarim"> Mening kurslarim
+                </a>
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-user.svg" alt="Profilim"> Profilim
+                </a>
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-briefcase.svg" alt="Topshiriqlar"> Topshiriqlar
+                </a>
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-book-alt.svg" alt="Viktorina"> Viktorina
+                </a>
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-comment.svg" alt="Xabarlar"> Xabarlar
+                </a>
+                <a href="#" class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-credit-card.svg" alt="To'lovlar tarixi"> To’lovlar tarixi
+                </a>
+            </div>
+            <div class="mt-10 border-t pt-4">
+                <a class="flex items-center gap-3 w-full p-3 hover:bg-[#1c71d2] group-[]:hover:text-[#fff]">
+                    <img src="/assets/svg/fi-rr-sign-out.svg" alt="Chiqish"> Chiqish
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col w-full">
+            <nav class="flex items-center justify-between bg-white p-5 shadow-sm max-[500px]:hidden">
+                <a href="./index.html">
+                    <button class="w-[140px] h-[45px] rounded-full bg-blue-600 text-white">
+                        Asosiy Menyu
+                    </button>
+                </a>
+                <div class="flex items-center gap-4">
+                    <select class="text-gray-700 w-[157px] h-[45px] rounded-full border">
+                        <option value="#">22.04.2021</option>
+                        <option value="#">22.04.2023</option>
+                    </select>
+                    <div class="relative flex items-center bg-gray-200 rounded-full w-[300px] h-[45px]">
+                        <input type="text" placeholder="Nimani qidiramiz?"
+                            class="bg-transparent pl-4 w-full outline-none">
+                        <i class="fa-solid fa-magnifying-glass text-gray-500 absolute right-4"></i>
+                    </div>
+                    <img src="/assets/svg/notification.svg" alt="Notification">
+                    <img src="/assets/svg/messeges.svg" alt="Messages">
+                    <div class="flex items-center gap-2 text-gray-700">
+                        <p>Zokirov Abdulloh</p>
+                        <img src="/assets/img/avatar.png" alt="Avatar" class="w-10 h-10 rounded-full">
+                    </div>
+                </div>
+            </nav>
+
+            <section class="p-5 bg-gray-50 space-y-5">
+                <div class="bg-white shadow-md p-5 rounded-md">
+                    <h1 class="text-xl font-bold text-gray-700">Umumiy</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
+                        <div class="flex gap-4 items-center">
+                            <img src="/assets/svg/ruchka.svg" alt="Courses">
+                            <div>
+                                <h1 class="text-3xl font-bold text-gray-700">4</h1>
+                                <p class="text-gray-500">Ro’yxatdan o’tilgan kurslar</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-center border-l pl-5">
+                            <img src="/assets/svg/strelka.svg" alt="Active Courses">
+                            <div>
+                                <h1 class="text-3xl font-bold text-gray-700">2</h1>
+                                <p class="text-gray-500">Amaldagi kurslar</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-center border-spacing-2 pl-5">
+                            <img src="/assets/svg/check.svg" alt="Completed">
+                            <div>
+                                <h1 class="text-3xl font-bold text-gray-700">2</h1>
+                                <p class="text-gray-500">Tugatilgan kurslar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div class="bg-white shadow-lg p-5 rounded-lg">
+                        <div class="flex justify-between items-center border-b pb-3">
+                            <h1 class="font-bold text-gray-700">Mening faolligim</h1>
+                            <select class="border rounded-md px-2 py-1">
+                                <option>Haftalik</option>
+                                <option>Oylik</option>
+                            </select>
+                        </div>
+                        <div class="flex items-center gap-4 mt-4">
+                            <ul class="text-gray-500 space-y-2">
+                                <li>50</li>
+                                <li>40</li>
+                                <li>30</li>
+                                <li>20</li>
+                                <li>10</li>
+                            </ul>
+                            <img src="/assets/img/charts.png" alt="Statisctics">
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-sm p-5 rounded-sm">
+                        <div class="flex justify-between items-center border-b pb-3">
+                            <h1 class="font-bold text-gray-700">Topshiriqlar</h1>
+                            <select class="border rounded-lg px-2 py-1">
+                                <option>Haftalik</option>
+                                <option>Oylik</option>
+                            </select>
+                        </div>
+                        <img src="/assets/img/lines.png" alt="lines" class="mt-4">
+                        <div class="infos">
+                            <div class="infos__content flex items-center gap-[10px] ">
+                                <div class="infos__yum bg-[#1D72D2] rounded-[50px] w-[12px] h-[12px]"></div>
+                                <h5 class="text-[#8A90A5]">Bajarilgan</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="w-[440px] bg-white shadow-md p-6">
+                    <div class="flex items-center justify-between ">
+                      <h1 class="font-medium text-xl text-[#323a56]">Profilim</h1>
+                      <img src="../svg/3nuqta.svg" alt="">
+                    </div>
+                    <div class="flex flex-col items-center justify-center text-center">
+                      <img src="../img/avatar.png" alt="">
+                      <h2 class="text-xl font-semibold text-gray-800">
+                        Kalimbetov Dilmurod
+                      </h2>
+                      <p class="text-sm text-gray-500">O'quvchi</p>
+                    </div>
+                    <div class="flex items-center justify-between mt-6">
+                      <div class="flex items-center ">
+                        <img src="../img/tel.png" alt="">
+                        <span class="text-sm text-gray-600">(90) 723 45 45</span>
+                      </div>
+                      <div class="flex items-center">
+                        <img src="../img/lakatsiya.png" alt="">
+                        <span class="text-sm text-gray-600">Toshkent sh. Yun.</span>
+                      </div>
+                    </div>
+                    <div class="w-[467px] h-0 -rotate-180 border-2 border-solid border-[#eff2f7] mt-[45px] mb-47px"></div>
+                    <div class="flex items-center justify-between p-[25px] nb-[30px]">
+                      <h1 class="font-medium text-xl text-[#323a56]">Xabarlar</h1>
+                      <img src="../svg/3nuqta.svg" alt="">
+                    </div>
+                    <div class="border w-[408px] h-[90px] p-5 rounded-md border-solid border-[#eff2f7] flex items-center justify-between mt-2">
+                      <div class="flex items-center justify-center gap-[12px]">
+                        <img src="../img/kd.png" alt="">
+                        <div class="flex flex-col items-start justify-center gap-[5px]">
+                          <h1 class="font-medium text-base text-[#323a56]">Wade Warren</h1>
+                          <p class="font-normal text-sm text-[#8a90a5]">Salom, kechagi topshiriqlarni bajardin ...</p>
+                        </div>
+                      </div>
+                      <img src="../img/Frame1.png" alt="">
+                    </div>
+                    <div class="border w-[408px] h-[90px] p-5 rounded-md border-solid border-[#eff2f7] flex items-center justify-between mt-2">
+                      <div class="flex items-center justify-center gap-[12px]">
+                        <img src="../img/kd.png" alt="">
+                        <div class="flex flex-col items-start justify-center gap-[5px]">
+                          <h1 class="font-medium text-base text-[#323a56]">Wade Warren</h1>
+                          <p class="font-normal text-sm text-[#8a90a5]">Bugun darsga eratroq bormoqchiman</p>
+                        </div>
+                      </div>
+                      <img src="../img/Frame3.png" alt="">
+                    </div>
+                    <div class="border w-[408px] h-[90px] p-5 rounded-md border-solid border-[#eff2f7] flex items-center justify-between mt-2">
+                      <div class="flex items-center justify-center gap-[12px]">
+                        <img src="../img/kd.png" alt="">
+                        <div class="flex flex-col items-start justify-center gap-[5px]">
+                          <h1 class="font-medium text-base text-[#323a56]">Guy Hawkins</h1>
+                          <p class="font-normal text-sm text-[#8a90a5]">Ushbu kursni siz bilan birgalikda o’rgan ...</p>
+                        </div>
+                      </div>
+                      <img src="../img/Frame2.png" alt="">
+                    </div>
+                    <button class="border w-[407px] h-[50px] px-5 py-3 rounded-md border-solid border-[#eff2f7] mt-2">
+                      <h1 class="font-medium text-base text-center text-[#1d72d2]">Ko’proq ko’rish</h1>
+                    </button>
+                  </aside>
+            </section>
+            
+        </div>
+    </main>
+</body>
+
+</html>

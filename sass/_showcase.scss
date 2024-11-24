@@ -1,0 +1,136 @@
+.biz {
+    color: #1D72D2;
+    text-align: center;
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.dastur {
+    color: #323A56;
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.showcase__title {
+    color: #8A90A5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 145% */
+}
+
+.showcase__button1 {
+    padding: 20px 40px;
+    border-radius: 8px;
+    gap: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+    border: 2px solid #1D72D2;
+}
+
+.showcase__button2 {
+    padding: 20px 40px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #EFF2F7;
+    background: #EFF2F7;
+    color: #323A56;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.showcase__button1:hover,
+.showcase__button2:hover {
+    color: #fff;
+    background: #1D72D2;
+    box-shadow: 0px 7px 12px 0px rgba(32, 81, 137, 0.24);
+    transition: 0.5s;
+}
+
+.showcase__button1 img {
+    background-color: #1D72D2;
+    border-radius: 50px;
+}
+
+.content__title {
+    color: #323A56;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content__titles {
+    color: #70C63B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.showcase__card {
+    border-radius: 8px;
+    background:  #F4FFF4;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.12);
+}
+@media(max-width:893px){
+        .biz,
+        .dastur{
+            font-size: 43px;
+        }
+        .showcase__title{
+            font-size: 16px;
+        }
+}
+
+@media(max-width:619px){
+    .biz,
+    .dastur{
+        font-size: 33px;
+    }
+    .showcase__title{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:350px){
+    .showcase__button{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .showcase__button1,
+    .showcase__button2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:320px){
+    .showcase__card{
+        width: 100%;
+    }
+}

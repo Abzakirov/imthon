@@ -1,0 +1,90 @@
+.title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.khan__content {
+    transition: 0.7s all;
+    position: absolute;
+    bottom: -400px;
+    border-radius: 12px;
+    padding: 0 30px 40px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 15.63%, rgba(32, 81, 137, 0.90) 100%), rgba(211, 211, 211, 0.016) 50% / cover no-repeat;
+}
+
+.khan__card {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/kha1.jpg);
+    width: 510px;
+    height: 360px;
+}
+
+.khan__card:hover .khan__content {
+    bottom: 0px;
+
+}
+
+.khan__card1 {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/khan2.png);
+    width: 510px;
+    height: 360px;
+}
+
+.khan__card2 {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/khan3.png) no-repeat;
+    width: 730px;
+    height: 760px;
+    flex-shrink: 0;
+}
+
+.khan__card1:hover .khan__content {
+    bottom: 0px;
+
+}
+
+.khan__card2:hover .khan__content {
+    bottom: 0px;
+
+}
+
+@media(max-width:1273px) {
+    .khan__card {
+        width: 300px !important;
+    }
+
+    .khan__card1 {
+        width: 300px !important;
+    }
+
+    .khan__card2 {
+        width: 500px !important;
+    }
+}
+
+@media(max-width:520px) {
+    .khan__card {
+        width: 250px !important;
+    }
+
+    .khan__card1 {
+        width: 250px !important;
+    }
+
+    .khan__card2 {
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+}

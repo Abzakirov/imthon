@@ -1,0 +1,157 @@
+.khan__content {
+    transition: 0.7s all;
+    position: absolute;
+    z-index: 222;
+    bottom: -400px;
+    border-radius: 12px;
+    padding: 0 30px 130px;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 15.63%, rgba(32, 81, 137, 0.90) 100%), rgba(211, 211, 211, 0.016) 50% / cover no-repeat;
+}
+
+.khan__card3 {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/qiz1.png) no-repeat;
+    width: 290px;
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.sircle {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+}
+
+.sircle img {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 25px;
+    height: 25px;
+}
+
+.khan__card3:hover .khan__content {
+    bottom: 0px;
+
+}
+
+.khan__card3:hover .sircle {
+    background: #FFF;
+}
+.khan__card4:hover .sircle {
+    background: #FFF;
+}
+.khan__card5:hover .sircle {
+    background: #FFF;
+}
+.khan__card6:hover .sircle {
+    background: #FFF;
+}
+.khan__card3:hover img{
+    filter: brightness(0) saturate(1000%) hue-rotate(210deg);
+    transition: 0.4s;
+}
+.khan__card4:hover img{
+    filter: brightness(0) saturate(1000%) hue-rotate(210deg);
+    transition: 0.4s;
+}
+.khan__card5:hover img{
+    filter: brightness(0) saturate(1000%) hue-rotate(210deg);
+    transition: 0.4s;
+}
+.khan__card6:hover img{
+    filter: brightness(0) saturate(1000%) hue-rotate(210deg);
+    transition: 0.4s;
+}
+.oq__title {
+    color: #323A56;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.oq__titles {
+    color: #8A90A5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__oq {
+    position: absolute;
+    bottom: 27px;
+    border-radius: 12px;
+    border: 1px solid #EFF2F7;
+    background: #FFF;
+    width: 290px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.khan__card4 {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/erkak1.png) no-repeat;
+    width: 290px;
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.khan__card4:hover .khan__content {
+    bottom: 0px;
+
+}
+
+.khan__card5 {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/qiz2.png) no-repeat;
+    width: 290px;
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.khan__card5:hover .khan__content {
+    bottom: 0px;
+
+}
+
+.khan__card6 {
+    position: relative;
+    overflow: hidden;
+    background: url(/assets/img/erkak2.png) no-repeat;
+    width: 290px;
+    height: 360px;
+    flex-shrink: 0;
+}
+
+.khan__card6:hover .khan__content {
+    bottom: 0px;
+
+}
+
+@media(max-width:320px){
+    .khan__card3{
+        width: 250px !important;
+    }
+    .khan__card4{
+        width: 250px !important;
+    }
+    .khan__card5{
+        width: 250px !important;
+    }
+    .khan__card6{
+        width: 250px !important;
+    }
+}

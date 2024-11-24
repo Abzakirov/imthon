@@ -1,0 +1,149 @@
+.study__card__right__child {
+    width: 320px;
+    height: 380px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #EFF2F7;
+    background: #FFF;
+    box-shadow: 0px 10px 16px 0px rgba(32, 81, 137, 0.06);
+margin: 0 auto;
+}
+
+.study__img {
+    border-radius: 10px 0px 0px 10px;
+    background: linear-gradient(0deg, rgba(32, 81, 137, 0.22) 0%, rgba(32, 81, 137, 0.22) 100%), lightgray 50% / cover no-repeat;
+}
+
+.plus {
+    display: flex;
+    padding: 4px 6px;
+    justify-content: center;
+    align-items: center;
+    color: #1D72D2;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+    background: #EFF2F7;
+}
+
+.study__items {
+    color: #1D72D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.chic {
+    color: #323A56;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dol {
+    color: #313647;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.night {
+    color: #313647;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dasturs {
+    color: #323A56;
+    text-align: center;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bizs {
+    color:  #1D72D2;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.osen {
+    color: #1D72D2;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ram {
+    color: #1D72D2;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.study__card {
+    border-radius: 10px;
+    border: 1px solid #8A90A5;
+    background: #FFF;
+}
+
+@media(max-width:1227px) {
+    .study__card {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+@media(max-width:802px){
+    .bizs,
+    .dasturs{
+        font-size: 44px;
+    }
+}
+@media(max-width:653px){
+    .bizs,
+    .dasturs{
+        font-size: 34px;
+    }
+}
+@media(max-width:505px) {
+    .bizs,
+    .dasturs{
+        font-size: 24px;
+    }
+    .study__card__right__child{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:367px) {
+    .bizs,
+    .dasturs{
+        font-size: 24px;
+    }
+}

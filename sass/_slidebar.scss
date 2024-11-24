@@ -1,0 +1,39 @@
+.sidebar__li:hover .sidebar__a {
+    color: #1D72D2;
+    transition: 0.4s;
+}
+
+.sidebar__a {
+    color: #8A90A5;
+    font-family: url(/fonts/SFPRODISPLAYMEDIUM.OTF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 20px 0;
+}
+
+.sidebar {
+    width: 350px;
+    padding: 30px;
+}
+
+@media(min-width:1490px) {
+    .container2 {
+        max-width: 1440px;
+        
+    }
+}
+
+@media(max-width:820px) {
+    .sidebar {
+        display: none;
+    }
+}

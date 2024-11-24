@@ -1,0 +1,67 @@
+.asosiy {
+    border: 1px solid #EFF2F7;
+    font-family: url(/fonts/SFPRODISPLAYMEDIUM.OTF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.date {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #EFF2F7;
+
+    /* 1 */
+    box-shadow: 0px 2px 4px 0px rgba(47, 94, 149, 0.07);
+}
+
+.search {
+    border: none;
+}
+
+.serach__forms {
+    border: 1px solid #EFF2F7;
+    box-shadow: 0px 2px 4px 0px rgba(47, 94, 149, 0.07);
+}
+
+.names {
+    
+    text-align: right;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media(max-width:1300px){
+    .topbar__left__right{
+        gap: 100px;
+    }
+}
+@media(max-width:1200px){
+    .topbar__left__right{
+        gap: 50px;
+    }
+}
+@media(max-width:1000px){
+    .topbar__right {
+        gap: 20px;
+    }
+}
+@media(max-width:700px){
+    .date{
+        display: none;
+    }
+    .serach__forms{
+        display: none;
+    }
+    .asosiy{
+        display: none;
+    }
+}

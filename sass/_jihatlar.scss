@@ -1,0 +1,47 @@
+.jihatlar__card__title {
+    color: #323A56;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.jihatlar__titles {
+    color: #8A90A5;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 161.111% */
+}
+.jihatlar__card:hover .Ellipse{
+    background: #1D72D2 ;
+    transition: 0.7s;
+}
+
+.Ellipse {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #EFF2F7;
+    border-radius: 50px;
+    position: relative;
+}
+
+.imgs {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 13px;
+    transition: 0.4s;
+}
+.jihatlar__card:hover .imgs{
+    filter: brightness(0) invert(1);
+    transition: 0.4s;
+}
+.jihatlar__card {
+    border-radius: 12px;
+    border: 1px solid  #EFF2F7;
+    background: #FFF;
+}
